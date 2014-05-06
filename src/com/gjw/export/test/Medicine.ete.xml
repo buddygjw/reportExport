@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean class="com.hyl.utility.model.Medicine">
+    <property name="name" text="药品名称" type="String"/>
+    <property name="ark" text="放药药框" type="String"/>
+    <property name="barCode" text="条形码" type="String"/>
+    <property name="buyPrice" text="进货价格" type="double"/>
+    <property name="stockpile" text="库存量" type="double"/>
+    <property name="sellPrice" text="出售价格" type="double"/>
+    <property name="rebate" text="打折百分比" type="double"/>
+    <property name="efficacy" text="功效描述" type="String"/>
+</bean>
